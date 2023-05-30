@@ -9,7 +9,7 @@
     <div class="container">
 
         <div class=" relative max-w-sm mx-auto bg-white mb-10 px-6 items-center  rounded-xl flex  ">
-            <img class="w-24 h-24 rounded-full shadow-lg" src="/mobile/logo.svg" />
+            <img class="w-24 h-24 rounded-full shadow-lg" src="https://tangxiaomi.top/mobile/logo.svg" />
             <div class="flex flex-col py-5 pl-10">
                 <strong class="text-slate-900 text-sm font-medium dark:text-slate-200">Abby</strong>
                 <span class="text-slate-500 text-sm font-medium dark:text-slate-400">brave</span>

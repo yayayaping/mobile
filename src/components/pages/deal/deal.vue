@@ -15,7 +15,7 @@
                     price="2.00"
                     desc="交易描述"
                     title="交易信息"
-                    thumb="/mobile/logo.svg" />
+                    thumb="https://tangxiaomi.top/mobile/logo.svg" />
             </div>
         </van-tab>
         <van-tab title="异常交易"><div class="content">异常交易</div></van-tab>
