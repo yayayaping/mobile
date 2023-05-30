@@ -1,0 +1,38 @@
+name: deploy github pages
+on:
+    push:
+        branches:
+            - main
+jobs:
+    build-and-deploy:
+        runs-on: ubuntu-latest
+        steps:
+
+            - name: setup pnpm...
+              uses: pnpm/action-setup@v2
+              with:
+                version: 7.5.0
+
+            - name: checkout...
+              uses: actions/checkout@master
+
+            - name: setup nodejs...
+              uses: actions/setup-node@v2
+              with:
+                node-version: '16'
+
+            - name: pnpm install...
+              run: |
+                  pnpm i
+
+            - name: build pages..
+              run: |
+                  pnpm build
+                  ls
+
+            - name: deploy github pages
+              uses: JamesIves/github-pages-deploy-action@3.7.1
+              with:
+                  ACCESS_TOKEN: ${{ secrets.PAGES_TOKEN }}
+                  BRANCH: gh-pages
+                  FOLDER: dist
