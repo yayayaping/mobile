@@ -17,7 +17,7 @@
         <van-tab title="标签 3">内容 3</van-tab>
         <van-tab title="标签 4">内容 4</van-tab>
     </van-tabs> -->
-    <div>交易统计数据：当天交易情况；交易走势，主要是统计</div>
+    <div>交易统计数据：当天交易情况；交易走势</div>
 </template>
 
 <script lang="ts" setup>
