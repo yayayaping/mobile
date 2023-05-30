@@ -6,7 +6,7 @@
 -->
 
 <template>
-    <div class="container">
+    <div class="pt-10">
 
         <div class=" relative max-w-sm mx-auto bg-white mb-10 px-6 items-center  rounded-xl flex  ">
             <img class="w-24 h-24 rounded-full shadow-lg" src="https://tangxiaomi.top/mobile/logo.svg" />
