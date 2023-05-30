@@ -8,7 +8,14 @@
 <template>
     <div class="container">
 
-        <van-contact-card type="edit" tel="15807551258" name="Abby" class="mb30" />
+        <div class=" relative max-w-sm mx-auto bg-white mb-10 px-6 items-center  rounded-xl flex  ">
+            <img class="w-24 h-24 rounded-full shadow-lg" src="/mobile/logo.svg" />
+            <div class="flex flex-col py-5 pl-10">
+                <strong class="text-slate-900 text-sm font-medium dark:text-slate-200">Abby</strong>
+                <span class="text-slate-500 text-sm font-medium dark:text-slate-400">brave</span>
+            </div>
+        </div>
+        <!-- <van-contact-card type="edit" tel="15807551258" name="Abby" class="mb30" /> -->
         <!-- <van-skeleton title avatar :row="3" class="mb30" /> -->
 
         <van-cell-group>
