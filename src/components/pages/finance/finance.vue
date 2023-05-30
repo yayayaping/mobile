@@ -6,13 +6,17 @@
 -->
 
 <template>
-    <div>
-        <h1>财务专区</h1>
-    </div>
+    <van-tabs v-model="active" class="tab-box" swipeable>
+        <van-tab title="账户资金"><div class="content">账户资金</div></van-tab>
+        <van-tab title="交易明细"><div class="content">交易明细</div></van-tab>
+        <van-tab title="交易划款"><div class="content">交易划款</div></van-tab>
+        <van-tab title="保证金划款"><div class="content">保证金划款</div></van-tab>
+    </van-tabs>
 </template>
 
 <script lang="ts" setup>
-import { computed, } from 'vue'
+import { computed, ref } from 'vue'
+const active = ref(1)
 </script>
 
 <style src="./finance.styl" lang="stylus" scoped></style>

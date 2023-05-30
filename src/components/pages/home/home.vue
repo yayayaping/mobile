@@ -6,7 +6,7 @@
 -->
 
 <template>
-    <van-tabs v-model="active" class="tab-box" swipeable>
+    <!-- <van-tabs v-model="active" class="tab-box" swipeable>
         <van-tab title="标签 1">
             <div class="content">
                 内容 1
@@ -16,7 +16,8 @@
         <van-tab title="标签 2">内容 2</van-tab>
         <van-tab title="标签 3">内容 3</van-tab>
         <van-tab title="标签 4">内容 4</van-tab>
-    </van-tabs>
+    </van-tabs> -->
+    <div>交易统计数据：当天交易情况；交易走势，主要是统计数据</div>
 </template>
 
 <script lang="ts" setup>
